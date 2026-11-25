@@ -22,7 +22,7 @@ Live post: https://x.com/CUNGYIOOOO/status/2125565342395081096
 
 ## How it works
 
-`main.py` writes `/output/POST.json` containing the URL of the published
+`main.ts` writes `/output/POST.json` containing the URL of the published
 X post:
 
 ```json
@@ -32,7 +32,7 @@ X post:
 Run it with:
 
 ```bash
-python3 main.py
+node main.ts
 ```
 
 ## License
