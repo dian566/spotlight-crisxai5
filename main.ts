@@ -10,8 +10,9 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 
 // The published X post introducing @crisxai5, posted from @CUNGYIOOOO.
+// Re-posted with the bounty play code makefun-pagoda-jackal-horizon.
 const PUBLISHED_POST_URL =
-  "https://x.com/CUNGYIOOOO/status/2125565342395081096";
+  "https://x.com/CUNGYIOOOO/status/2125570374058291367";
 
 function buildPayload(): { url: string } {
   return { url: PUBLISHED_POST_URL };
